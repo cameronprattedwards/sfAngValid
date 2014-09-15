@@ -24,7 +24,9 @@ module.exports = function(config) {
         'src/constraints/NotBlank.js',
         'src/constraints/NotBlank_spec.js',
         'src/constraints/Length.js',
-        'src/constraints/Length_spec.js'
+        'src/constraints/Length_spec.js',
+        'src/constraints/NotNull.js',
+        'src/constraints/NotNull_spec.js'
     ],
 
 
