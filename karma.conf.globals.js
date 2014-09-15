@@ -16,7 +16,9 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
         'bower_components/chai/chai.js',
-        'test-main.globals.js'
+        'test-main.globals.js',
+        'src/ValidatorFactory.js',
+        'src/ValidatorFactory_spec.js'
     ],
 
 
