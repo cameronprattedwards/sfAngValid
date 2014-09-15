@@ -1,0 +1,25 @@
+{
+  "name": "sfAngValid",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cameronprattedwards/sfAngValid",
+  "authors": [
+    "Cameron Edwards <cameronprattedwards@gmail.com>"
+  ],
+  "description": "Easily consume Symfony validation constraints from an Angular app",
+  "keywords": [
+    "symfony",
+    "angular",
+    "validation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "chai": "~1.9.1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "sfAngValid",
+  "version": "0.0.1",
+  "description": "Easily consume Symfony validation constraints from an Angular app.",
+  "main": "index.js",
+  "dependencies": {
+    "requirejs": "^2.1.15"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "karma": "^0.12.23",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-mocha": "^0.1.9",
+    "karma-requirejs": "^0.2.2",
+    "mocha": "^1.21.4",
+    "requirejs": "^2.1.15"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cameronprattedwards/sfAngValid.git"
+  },
+  "keywords": [
+    "symfony",
+    "angular",
+    "validation"
+  ],
+  "author": "Cameron Edwards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cameronprattedwards/sfAngValid/issues"
+  },
+  "homepage": "https://github.com/cameronprattedwards/sfAngValid"
+}
