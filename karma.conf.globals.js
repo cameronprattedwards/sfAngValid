@@ -20,7 +20,9 @@ module.exports = function(config) {
         'src/ValidatorFactory.js',
         'src/ValidatorFactory_spec.js',
         'src/constraints/Blank.js',
-        'src/constraints/Blank_spec.js'
+        'src/constraints/Blank_spec.js',
+        'src/constraints/Length.js',
+        'src/constraints/Length_spec.js'
     ],
 
 
