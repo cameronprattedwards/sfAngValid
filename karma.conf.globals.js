@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Mon Sep 15 2014 13:29:42 GMT-0400 (EDT)
+// Generated on Mon Sep 15 2014 14:05:09 GMT-0400 (EDT)
 
 module.exports = function(config) {
   config.set({
@@ -10,14 +10,13 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['mocha', 'requirejs'],
+    frameworks: ['mocha'],
 
 
     // list of files / patterns to load in the browser
     files: [
-        'test-main.js',
-        { pattern: '*.js', included: false },
-        { pattern: 'bower_components/**/*.js', included: false }
+        'bower_components/chai/chai.js',
+        'test-main.globals.js'
     ],
 
 
@@ -63,5 +62,5 @@ module.exports = function(config) {
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false
-  });
+});
 };
