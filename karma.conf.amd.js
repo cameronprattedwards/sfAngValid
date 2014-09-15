@@ -17,6 +17,7 @@ module.exports = function(config) {
     files: [
         'test-main.amd.js',
         { pattern: 'src/*.js', included: false },
+        { pattern: 'src/**/*.js', included: false },
         { pattern: 'bower_components/**/*.js', included: false }
     ],
 

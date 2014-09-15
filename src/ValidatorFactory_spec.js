@@ -1,8 +1,9 @@
 (function(test) {
-	if (typeof define == 'function' && define.amd)
-		define(['sfAngValid/ValidatorFactory'], test());
-	else
-		test(ValidatorFactory);
+	if (typeof define == 'function' && define.amd) {
+		define(['sfAngValid/ValidatorFactory'], test);
+	} else {
+		test(sfAngValid.ValidatorFactory);
+	}
 }(function(ValidatorFactory) {
 	describe('ValidatorFactory', function() {
 		describe('#makeValidator()', function() {

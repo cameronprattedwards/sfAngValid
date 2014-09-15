@@ -18,7 +18,9 @@ module.exports = function(config) {
         'bower_components/chai/chai.js',
         'test-main.globals.js',
         'src/ValidatorFactory.js',
-        'src/ValidatorFactory_spec.js'
+        'src/ValidatorFactory_spec.js',
+        'src/constraints/Blank.js',
+        'src/constraints/Blank_spec.js'
     ],
 
 

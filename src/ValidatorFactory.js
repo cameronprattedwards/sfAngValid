@@ -1,8 +1,10 @@
 (function(root, factory) {
-	if (typeof define == 'function' && define.amd)
+	if (typeof define == 'function' && define.amd) {
 		define([], factory);
-	else
-		root.ValidatorFactory = factory();
+	} else {
+		root.sfAngValid = root.sfAngValid || {};
+		root.sfAngValid.ValidatorFactory = factory();
+	}
 }(this, function() {
 	return {
 		makeValidator: function(backendConstraints) {
