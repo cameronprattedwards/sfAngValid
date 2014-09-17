@@ -32,7 +32,9 @@ module.exports = function(config) {
         'src/constraints/False.js',
         'src/constraints/False_spec.js',
         'src/constraints/Type.js',
-        'src/constraints/Type_spec.js'
+        'src/constraints/Type_spec.js',
+        'src/constraints/Email.js',
+        'src/constraints/Email_spec.js'
     ],
 
 
