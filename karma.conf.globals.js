@@ -30,7 +30,9 @@ module.exports = function(config) {
         'src/constraints/True.js',
         'src/constraints/True_spec.js',
         'src/constraints/False.js',
-        'src/constraints/False_spec.js'
+        'src/constraints/False_spec.js',
+        'src/constraints/Type.js',
+        'src/constraints/Type_spec.js'
     ],
 
 

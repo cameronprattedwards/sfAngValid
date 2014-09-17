@@ -23,7 +23,7 @@
 
 		describe('return value', function() {
 			var backendConstraints = {
-					message: 'Please enter a value.'
+					message: 'This value must not be null.'
 				},
 				validator = NotNull(backendConstraints);
 

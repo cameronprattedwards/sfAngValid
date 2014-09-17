@@ -23,7 +23,7 @@
 
 		describe('return value', function() {
 			var backendConstraints = {
-					message: 'Please enter a value.'
+					message: 'This field\'s value must be false'
 				},
 				validator = False(backendConstraints);
 
